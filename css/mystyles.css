@@ -1,0 +1,49 @@
+/*
+F9F8ED  -off white
+F4E7D3  -beige pink
+9DC08B  -med green
+0B4619  -dark green
+*/
+
+body {
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+h1 {
+    margin-top: 10;
+    font-family: 'Sacramento';
+    color: #0B4619;
+}
+/* */
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-container {
+    background-color: #F1DBBF;
+    position: relative;
+    padding-top: 100px;
+    }
+
+.mid-container {
+    background-color: #B99B6B;
+    height: 200px;
+    width: 200px;
+}
+
+.low-container {
+    background-color: #F4E7D3;
+    height: 200px;
+    width: 200px;
+}
