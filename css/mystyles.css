@@ -1,8 +1,8 @@
 /*
-F9F8ED  -off white
-F4E7D3  -beige pink
-9DC08B  -med green
-0B4619  -dark green
+F7F6DC  -off white
+FFC090  -salmon pink
+B1D7B4  -pale green
+7FB77E  -med green
 */
 
 body {
@@ -14,36 +14,32 @@ body {
 
 h1 {
     margin-top: 10;
-    font-family: 'Sacramento';
-    color: #0B4619;
+    font-family: 'Righteous';
+    color: #FFC090;
+    font-size: 150px;
 }
 /* */
-.top-cloud{
-    position: absolute;
-    right: 300px;
-    top: 50px;
+.front-text {
+    font-family: 'Righteous';
+    color: #7FB77E;
+    font-size: 80px;
 }
 
-.bottom-cloud{
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
+.down-arrow{
+    position: relative;
+    opacity: 0.3;
+    left: 500px;
+    height: 100px;
+}
+
+.profile {
+    border-radius: 10%;
 }
 
 .top-container {
-    background-color: #F1DBBF;
+    background-color: #F7F6DC;
     position: relative;
     padding-top: 100px;
+    
     }
 
-.mid-container {
-    background-color: #B99B6B;
-    height: 200px;
-    width: 200px;
-}
-
-.low-container {
-    background-color: #F4E7D3;
-    height: 200px;
-    width: 200px;
-}
